@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Skills</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family:"Times New Roman", Times, serif;
+  color: #534539;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 45px;
+  text-align: center;
+  background: #fcccd6;
+  color: #eeedea;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 65px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+#double {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #eeedea;
+  color:#534539;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+.w3-theme1 {color:#fff !important;background-color:#fcccd6 !important}
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1 style="font-family:Times New Roman;">Skills</h1>
+</div>
+
+<div class="navbar">
+  <a href="https://sgclark20.github.io/AmyClark.github.io/">Home</a>
+  <a href="#"> My Skills</a>
+  <a href="https://sgclark20.github.io/AmyExperience.github.io/">My Experience</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2 style="font-family:Times New Roman;" class="w3-padding-16 w3-text-black">My Skills</h2>
+    <h3 style="font-family:Times New Roman;"> PROGRAMMING LANGUAGES</h3>
+    <ul id="double">
+      <li style="font-size:20px;font-family:Times New Roman;">JavaScript</li>
+      <li style="font-size:20px;font-family:Times New Roman;">TypeScript</li>
+      <li style="font-size:20px;font-family:Times New Roman;">Vue.js</li>
+      <li style="font-size:20px;font-family:Times New Roman;">React</li>
+      <li style="font-size:20px;font-family:Times New Roman;">Clojure</li>
+      <li style="font-size:20px;font-family:Times New Roman;">GoLang</li>
+      <li style="font-size:20px;font-family:Times New Roman;">Terraform</li>
+      <li style="font-size:20px;font-family:Times New Roman;">Python</li>
+      <li style="font-size:20px;font-family:Times New Roman;">R</li>
+      <li style="font-size:20px;font-family:Times New Roman;">Java</li>
+    </ul> 
+     </div>
+  <div class="main">
+    
+    <h3 style="font-family:Times New Roman;"> PROFICIENCIES</h3> 
+    <p style="font-family:Times New Roman;">AWS</p>
+      <div class="w3-light-grey w3-round-xlarge w3-small">
+        <div class="w3-container w3-center w3-round-xlarge w3-theme1" style="width:75%">75%</div>
+      </div>
+    <p style="font-family:Times New Roman;">Docker</p>
+      <div class="w3-light-grey w3-round-xlarge w3-small">
+        <div class="w3-container w3-center w3-round-xlarge w3-theme1" style="width:75%">
+          <div class="w3-center w3-text-white">75%</div>
+        </div>
+      </div>
+    <p style="font-family:Times New Roman;">New Relic</p>
+    <div class="w3-light-grey w3-round-xlarge w3-small">
+        <div class="w3-container w3-center w3-round-xlarge w3-theme1" style="width:75%">75%</div>
+      </div>
+    <p style="font-family:Times New Roman;">Jira</p>
+      <div class="w3-light-grey w3-round-xlarge w3-small">
+        <div class="w3-container w3-center w3-round-xlarge w3-theme1" style="width:50%">50%</div>
+      </div>
+    <p style="font-family:Times New Roman;">Redis</p>
+      <div class="w3-light-grey w3-round-xlarge w3-small">
+        <div class="w3-container w3-center w3-round-xlarge w3-theme1" style="width:50%">50%</div>
+      </div>
+    <p style="font-family:Times New Roman;">MySQL</p>
+      <div class="w3-light-grey w3-round-xlarge w3-small">
+        <div class="w3-container w3-center w3-round-xlarge w3-theme1" style="width:50%">50%</div>
+      </div>
+    <p style="font-family:Times New Roman;">DynamoDB</p>
+      <div class="w3-light-grey w3-round-xlarge w3-small">
+        <div class="w3-container w3-center w3-round-xlarge w3-theme1" style="width:50%">50%</div>
+      </div>
+    <p style="font-family:Times New Roman;">Shield</p>
+      <div class="w3-light-grey w3-round-xlarge w3-small">
+        <div class="w3-container w3-center w3-round-xlarge w3-theme1" style="width:50%">50%</div>
+      </div>
+    <p style="font-family:Times New Roman;">Github Actions</p>
+      <div class="w3-light-grey w3-round-xlarge w3-small">
+        <div class="w3-container w3-center w3-round-xlarge w3-theme1" style="width:50%">50%</div>
+      </div>
+    <p style="font-family:Times New Roman;">CircleCl</p>
+      <div class="w3-light-grey w3-round-xlarge w3-small">
+        <div class="w3-container w3-center w3-round-xlarge w3-theme1" style="width:50%">50%</div>
+      </div>
+    <hr>
+      </div>
+</div>
+
+</body>
+</html>
