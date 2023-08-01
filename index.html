@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Intern</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family:"Times New Roman", Times, serif;
+  color: #534539;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 45px;
+  text-align: center;
+  background: #eeedea;
+  color: #534539;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 65px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #eeedea;
+  color:#534539;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1 style="font-family:Times New Roman;">Amy Clark</h1>
+  <h3 style="font-family:Times New Roman;color:#FF69B4">Software Engineer</h3>
+</div>
+
+<div class="navbar">
+  <a href="#">Home</a> 
+  <a href="/Users/sgcla/OneDrive/Desktop/Amy/skills/index.html">My Skills</a>
+  <a href="/Users/sgcla/OneDrive/Desktop/Amy/exp/index.html">My Experience</a> 
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2 style="font-family:Times New Roman;">About Me</h2>
+    <img src="/Users/sgcla/OneDrive/Desktop/Amy/amy headshot.jpg" style="width:275px;height:300px;" alt="Amy">
+    <p style="font-family:Times New Roman;">Hello! My name is Amy Clak. I currently reside in Charlotte, NC and I am the mom to two sweet little fur babies</p> 
+     </div>
+  <div class="main">
+   <h2 style="font-family:Times New Roman;">Contact</h2>
+      <p><i class="fa fa-home fa-fw w3-margin-right w3-large" <p style="color:#FF69B4;"></i>Charlotte, NC</p>
+      <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large" <p style="color:#FF69B4;"></i>akclarknp@gmail.com</p>
+      <p><i class="fa fa-phone fa-fw w3-margin-right w3-large" <p style="color:#FF69B4;"></i>704-9642501</p>
+      <p><i class="fa fa-linkedin fa-fw w3-margin-right w3-large" <p style="color:#FF69B4;"></i><a href="https://en.wikipedia.org/wiki/Cat">@amyclarkcodes</a></p>
+      <p><i class="fa fa-github fa-fw w3-margin-right w3-large" <p style="color:#FF69B4;"></i><a href="https://en.wikipedia.org/wiki/Cat">@aclarkbloop</a></p>
+        <br>
+        <hr>
+    <h2 style="font-family:Times New Roman;">Education</h2>
+      <h3 style="font-family:Times New Roman;"> Bachelors of Science in Computer Science </h3>
+      <p style="color:#FF69B4;font-size:20px;font-family:Times New Roman"> Universtiy of North Carolina at Chapel Hill <br> (Aug 2017 - May 2021)</p>
+        <ul>
+          <li style="font-family:Times New Roman;">Mentored and guided students in understanding complex programing concepts, <br>improving their problem solving theoretical knowledge practically during my time<br> as a Foundations of Programmimg Teaching Assistant</li>
+        </ul>
+      <br>
+      </div>
+</div>
+
+</body>
+</html>
